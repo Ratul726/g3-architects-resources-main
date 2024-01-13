@@ -159,6 +159,7 @@ main{
 }
 .sponsors{
     text-align: center;
+    margin-bottom: 130px;
 }
 .sponsors-img-container{
     display: flex;
