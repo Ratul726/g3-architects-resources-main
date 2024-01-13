@@ -1,0 +1,84 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,700&family=Work+Sans:wght@700;800&display=swap');
+*{
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
+}
+/* shere style */
+.btn-primary{
+    border-radius:8px ;
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* header styles */
+header{
+    background-color: #fff4e7;
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+ font-size: 3rem;  
+ font-weight: 700; 
+ color: #131313;
+}
+nav > ul {
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #424242;
+}
+/* banner Styles */
+.banner-contant{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+font-size: 4rem;
+font-family: 700;
+color: #131313;
+}
+.banner-des{
+    color: #727272;
+    font-size: 400;
+}
+.banner img{
+    margin-top: 30px;
+    width: 100%;
+}
+
+/* Responsive midea quaries */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
+/* tablet or medium device */
+@media screen and (min-width:576px) and (max-width:960px){
+    header{
+        padding: 50px;
+    }
+    nav {
+        flex-direction: column;
+    }
+}
